@@ -1,0 +1,113 @@
+.main {
+    display: block;
+    unicode-bidi: isolate;
+}
+.page-header.breadcrumb-wrap {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ececec;
+    font-family: Quicksand, sans-serif;
+}
+
+.d-none {
+    display: none !important;
+}
+.breadcrumb {
+    display: inline-block;
+    padding: 0;
+    text-transform: capitalize;
+    color: #7e7e7e;
+    font-size: 14px;
+    font-weight: 600;
+    background: none;
+    margin: 0;
+    border-radius: 0;
+}
+.flex-row-reverse {
+    flex-direction: row-reverse !important;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.shop-product-fillter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 30px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: #7e7e7e;
+}
+.totall-product strong {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.text-brand {
+    color: #3bb77e !important;
+}
+.fw-600, strong {
+    font-weight: 600;
+}
+.shop-product-fillter .sort-by-product-area {
+    position: relative;
+    display: flex;
+}
+.shop-product-fillter .sort-by-product-area .sort-by-cover {
+    position: relative;
+}
+
+.mr-10 {
+    margin-right: 10px !important;
+}
+.shop-product-fillter .sort-by-product-area .sort-by-product-wrap {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: #777;
+    padding: 9px 16px;
+    border-radius: 10px;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    border: 1px solid #ececec;
+}
+.shop-product-fillter .sort-by-product-area .sort-by-product-wrap .sort-by {
+    margin-right: 5px;
+}
+.shop-product-fillter .sort-by-product-area .sort-by-product-wrap .sort-by span {
+    font-size: 13px;
+    font-weight: 500;
+}
+.shop-product-fillter .sort-by-product-area .sort-by-product-wrap .sort-by i {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #ababab;
+    position: relative;
+    top: 2px;
+}
+option, select {
+    font-size: 16px;
+}
+select {
+    width: 100%;
+    background: transparent;
+    border: 0 solid #ececec;
+    box-shadow: none;
+    color: #7e7e7e;
+}
+option {
+    background: #fff;
+    border: 0 solid #626262;
+    padding-left: 10px;
+}
+option, select {
+    font-size: 16px;
+}

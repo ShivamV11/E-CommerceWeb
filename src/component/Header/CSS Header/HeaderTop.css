@@ -1,0 +1,105 @@
+
+  .header-info ul {
+    margin: 0; /* Remove default margin for the ul element */
+  }
+  
+  .header-info ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 10px; /* Add spacing between list items */
+  }
+  
+  #news-flash ul {
+    margin: 0; /* Remove default margin for the ul element inside #news-flash */
+  }
+  
+  #news-flash ul li {
+    display: inline; /* Display list items inline */
+  }
+  
+  .header-info-right ul {
+    margin: 0; /* Remove default margin for the ul element inside .header-info-right */
+  }
+  
+  .header-info-right ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 10px; /* Add spacing between list items */
+  }
+  
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .header-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .header-list li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  .header-list li a {
+    text-decoration: none;
+    color: #000;
+  }
+  .nav-seperator{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 100;
+    color: #7e7e7e;
+    margin: 10px;
+  }
+  .middle-title{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #7e7e7e;
+    margin: 10px;
+  }
+  .nav-span{
+    color: #3bb77e;
+  }
+
+  .left-side-nav-1{
+    display: flex;
+   align-items: flex-end;
+  }
+  .nav-help-dial{
+    display: flex;
+    font-size: 13px;
+    color: #7e7e7e;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-inline: 0.5rem;
+  }
+  .need-help{
+    margin-right: 0.3rem;
+  }
+  .nav-dial{
+    color: #3bb77e;
+    font-weight: 600;
+  }
+  .nav-globe{
+    height: 12.26px;
+    width: 12px;
+    margin-right: 4px;
+  }
+  .lang-change, .country-change{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1px;
+    font-size: 13px;
+    color: #7e7e7e;
+  }
+  .left-side-nav-1, .lang-change, .country-change, .middle-title{
+    margin-inline: 0.5rem;
+  }

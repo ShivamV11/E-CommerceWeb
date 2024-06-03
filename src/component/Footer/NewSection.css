@@ -1,0 +1,69 @@
+.newsletter {
+    position: relative;
+    margin-top: 35px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.newsletter .newsletter-inner {
+    background-image: url('../../Assets/Footer\ Images/banner-10.a58baf31.png');
+    background-position: center;
+
+    background-size: contain !important;
+    padding: 84px 78px;
+    clear: both;
+    display: table;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 230px;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+h2 {
+    font-size: 40px;
+}
+.mb-45 {
+    margin-bottom: 45px !important;
+}
+.text-brand {
+    color: #3bb77e !important;
+}
+.newsletter .newsletter-inner .newsletter-content form {
+    background-color: #fff;
+    max-width: 450px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 4;
+}
+.newsletter .newsletter-inner .newsletter-content form input {
+    border: 0;
+    border-radius: 50px 0 0 50px;
+    padding-left: 58px;
+    /* background: url(/_next/static/media/icon-plane.e600e64b.png) no-repeat 25px; */
+    background-image: url('../../Assets/icon-plane.e600e64b.png');
+    background-repeat: no-repeat;
+    size: 25px; 
+}
+
+
+.newsletter .newsletter-inner .newsletter-content form button {
+    border: 0;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.newsletter .newsletter-inner img {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    max-width: 40%;
+}

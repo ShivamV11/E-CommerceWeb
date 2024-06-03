@@ -1,0 +1,139 @@
+/* TopSelling.css */
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.section-padding {
+    padding: 25px 0;
+}
+
+.section-title.style-1 {
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.product-list-small .product-price {
+    color: #3bb77e;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-family: Quicksand, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 66.6666666667%;
+    }
+}
+
+h6 {
+    font-family: Quicksand, sans-serif;
+    color: #253d4e;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.text-muted {
+    color: #b6b6b6 !important;
+}
+
+.product-list-small figure img {
+    border-radius: 10px;
+}
+
+a, button, h4, img, input, span {
+    transition: all .3s ease 0s;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 66.6666666667%;
+    }
+}
+
+h6 {
+    font-size: 16px;
+    text-align: start;
+}
+
+.product-list-small h6 a {
+    color: #253d4e;
+}
+
+.product-rate-cover {
+    text-align: left;
+}
+
+.product-rate, .product-rating {
+    background-image: url(/src/Assets/rating-stars.png);
+    background-repeat: repeat-x;
+    height: 12px;
+}
+
+.product-rate {
+    background-position: 0 -12px;
+    width: 60px;
+    transition: all .5s ease-out 0s;
+    -webkit-transition: all .5s ease-out 0s;
+}
+
+.display-1, .display-2, .font-heading, .heading-sm-1, h1, h2, h3, h4, h5, h6 {
+    font-family: Quicksand, sans-serif;
+    color: #253d4e;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+.product-list-small figure img {
+    border-radius: 10px;
+}
+
+.product-list-small article:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.hover-up, .hover-up:hover {
+    transition: all .25s cubic-bezier(.02, .01, .47, 1);
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+/* Hover effect */
+.article-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.article-hover:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+}

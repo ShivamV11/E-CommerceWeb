@@ -1,0 +1,81 @@
+.carousel-item .slider-content {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translateY(-50%);
+}
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+.display-2 {
+    font-size: 72px;
+    line-height: 1;
+}
+.mb-65 {
+    margin-bottom: 65px !important;
+}
+p {
+    /* font-size: 1rem; */
+    font-weight: 400;
+    line-height: 24px;
+    /* margin-bottom: 5px; */
+    color: #7e7e7e;
+}
+.d-flex {
+    display: flex !important;
+}
+input {
+  
+    height: 64px;
+    box-shadow: none;
+    /* padding-left: 20px; */
+    font-size: 16px;
+    width: 100%;
+    background-color: #fff !important;
+}
+button:not(:disabled) {
+    cursor: pointer;
+}
+button.submit, button[type=submit] {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 40px;
+    /* color: #fff; */
+    background-color: #3bb77e;
+    /* border: 1px solid #29a56c;
+    border-radius: 10px; */
+}
+btn, .button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #3bb77e;
+    cursor: pointer;
+    transition: all .3s linear 0s;
+    letter-spacing: .5px;
+}
+.btn {
+    font-family: Quicksand, sans-serif;
+    line-height: 1.5;
+}
+.carousel-item .slider-content form input {
+    border: 0;
+    border-radius: 50px;
+    padding-left: 58px;
+    background: url(/src/Assets/icon-plane.e600e64b.png) no-repeat 33px;
+}
+
+.carousel-item  {
+    height: 538px !important;
+    border-radius: 30px !important;
+    background-size: cover;
+    background-position: 50%;
+}
+.carousel {
+    position: relative;
+    margin-top: 15px;
+}
